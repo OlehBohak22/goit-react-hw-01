@@ -1,0 +1,58 @@
+.cardContainer {
+  overflow: hidden;
+  margin: 0 auto;
+  border: 0.2vw solid #000;
+  border-radius: 1vw;
+  width: calc(100% / 2.5);
+  padding-top: 1vw;
+  margin-top: 5vw;
+}
+
+.cardContainer img {
+  background-color: #2e2e2e;
+  width: 15vw;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+}
+
+.cardContainer > div {
+  margin-bottom: 2vw;
+}
+
+.cardContainer p {
+  text-align: center;
+  font-size: 3vw;
+  color: #8f8f8f;
+}
+
+.cardContainer .name {
+  font-size: 4vw;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  margin-bottom: 1vw;
+}
+
+.cardList {
+  display: flex;
+}
+
+.cardList li {
+  padding: 1vw 0;
+  flex-basis: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dadada;
+  outline: 0.2vw solid #797979;
+}
+
+.cardList li span:nth-child(1) {
+  font-size: 2vw;
+}
+
+.cardList li span:nth-child(2) {
+  font-size: 3vw;
+  font-weight: 700;
+}

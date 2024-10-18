@@ -1,0 +1,14 @@
+.table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table td,
+.table th {
+  outline: 0.05vw solid #000;
+  padding: 1vw 0;
+}
