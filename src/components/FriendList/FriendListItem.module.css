@@ -1,7 +1,4 @@
 /* FriendListItem.module.css */
-.status {
-  font-weight: bold;
-}
 
 .online {
   color: green;
@@ -9,4 +6,27 @@
 
 .offline {
   color: red;
+}
+
+.friendItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vw;
+  padding: 1.5vw;
+  border: 0.2vw solid #000;
+  border-radius: 1vw;
+}
+
+.friendItem img {
+  width: 10vw;
+}
+
+.friendItem p {
+  font-size: 3vw;
+}
+
+.friendItem .status {
+  font-weight: 200;
+  font-size: 2vw;
 }

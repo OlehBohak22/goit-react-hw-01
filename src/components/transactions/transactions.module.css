@@ -1,14 +1,37 @@
 .table {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
+  padding-bottom: 5vw;
 }
 
-.table td {
-  text-align: center;
+.table thead tr {
+  background-color: #2c2c2c;
+}
+
+.table thead tr th {
+  color: white;
+  font-weight: 700;
 }
 
 .table td,
 .table th {
   outline: 0.05vw solid #000;
-  padding: 1vw 0;
+  padding: 0.5vw 0;
+  text-align: center;
+  font-size: 1.7vw;
+  font-weight: 500;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table tr td,
+.table tr th {
+  flex-basis: calc(100% / 3);
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: rgb(219, 219, 219);
 }

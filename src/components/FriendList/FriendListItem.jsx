@@ -3,8 +3,9 @@ import styles from "./FriendListItem.module.css";
 import PropTypes from "prop-types";
 
 export default function FriendListItem({ avatar, isOnline, name }) {
+
   return (
-    <div>
+    <div className={styles.friendItem}>
       <img src={avatar} alt="Avatar" width="48" />
       <p>{name}</p>
       <p

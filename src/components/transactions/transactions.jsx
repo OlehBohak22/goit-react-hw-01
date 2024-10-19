@@ -15,7 +15,7 @@ export default function Transactions({ items }) {
       <tbody>
         {items.map((item) => (
           <tr key={item.id}>
-            <td>{item.type}</td>
+            <td style={{ textTransform: "capitalize" }}>{item.type}</td>
             <td>{item.amount}</td>
             <td>{item.currency}</td>
           </tr>
